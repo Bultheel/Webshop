@@ -1,6 +1,17 @@
 pragma solidity ^0.4.18;
 
+//contract Tokenguard{
+  //function transferTokens(address _to, uint256 _amount) whenNotPaused public returns (bool success){}
+//}
+
 contract ChainList {
+  //Tokenguard tg;
+
+  //Constructor
+  //function ChainList(address _t) public {
+    //tg = Tokenguard(_t);
+  //}
+
   // custom types
   struct Article {
     uint id;

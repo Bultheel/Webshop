@@ -15,6 +15,13 @@ module.exports = {
             gas: 4700000,
             //deployment from the second account
             //from: '0xfcb9b2103bc3026ec2f6a71b09272d2b99490e2f'
+          },
+
+          rinkeby: {
+            host:"localhost",
+            port:8545,
+            network_id:4,//, //rinkeby test networks
+            gas: 4700000
           }
      }
 };
